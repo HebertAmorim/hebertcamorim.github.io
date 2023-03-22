@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: rgb(32, 36, 39);
+}
+
+.avatar-info {
+    text-align: center;
+    color: white;
+    padding: 80px 0 40px 0;
+}
+
+.avatar-info img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(56, 59, 65);
+}
+
+.avatar-info img:hover {
+    transition: 0.3s;
+    border: 3px solid rgba(108,232,150,1);
+    box-shadow: 0px 0px 15px 1px rgba(108,232,150,1);
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-links a {
+    background: rgb(48, 53, 58);
+    width: 300px;
+    height: 60px;
+    border: 2.5px solid rgb(56, 59, 65);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(158, 160, 162);
+    margin: 10px 0;
+    position: relative;
+}
+
+.social-links a:hover {
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px 1px rgba(108,232,150,1);
+    border: 2.5px solid rgba(108,232,150,1);
+    font-size: 17px;
+    color: white;
+}
+
+.social-links img {
+    width: 12%;
+    border-radius: 50%;
+    position: absolute;
+    top: 18%;
+    left: 4%;    
+}
+
+.social-links h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr {
+    width: 100%;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    border-top: 2px solid rgb(56, 59, 65);
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer-links li {
+    padding: 0 12px;
+}
+
+.footer-links img:hover {
+    transition: 0.3s;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 1px rgba(108,232,150,1);
+}
+
+.footer-links img {
+    width: 120%;
+}
+
+.social-links > .github:hover {
+    background: rgb(25,26,29);
+}
+
+.social-links > .linkedin:hover {
+    background: rgb(41, 103, 176);
+}
+
+.social-links > .discord:hover {
+    background: rgb(92, 107, 192);
+}
+
+.social-links > .telegram:hover {
+    background: rgb(3, 155, 228);
+}
+
+.social-links > .instagram:hover {
+    background: linear-gradient(45deg, rgba(255,124,3,1) 0%, rgba(157,7,223,1) 100%);
+}
+
+.social-links > .steam:hover {
+    background: linear-gradient(0deg, rgba(19,135,184,1) 0%, rgba(12,30,76,1) 91%);
+}
